@@ -16,3 +16,13 @@ Recall that:
 2. But many objects involve convenience methods to initialize in one step, eg- `NSDate* now = [NSDate date]`.
 
 Submit completed files to [D2L](http://d2l.lambtoncollege.ca) and show your program execution to your instructor/TA during lab.
+
+### Note for GNUstep
+
+The starting files include two shell scripts: `runHostname.sh` and `runSecondsAlive.sh`. These will perform the steps, within GNUstep, of compiling and running your files.
+
+So if you store your stuff on the F: drive in F:\CPD2164-Assign7 you would type the following commands to compile and run your files:
+
+    cd /f/CPD2164-Assign7
+	./runHostname.sh
+	./runSecondsAlive.sh
